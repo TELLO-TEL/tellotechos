@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><style type="text/css">
+	
+	div{
+   margin: 40px ;
+   padding: 40px ;
+   position:absolute;  ;
+
+	}
+
+</style>
+	<title>catvclick</title>
+</head>
+<body>
+ <img src="cat.jpg" id="cat">
+<div></div>
+
+<div id="para"></div>
+<script>
+
+
+
+    var q  = 0 ;
+    var w = document.getElementById('para');
+ p = document.getElementById('cat').addEventListener("click" , function(){
+         
+      if ("click") {
+      q++
+      };
+      w.innerHTML ="you clicked the cat  "+ q + "  times";
+           
+
+	});
+
+
+          setTimeout(function(){
+          	confirm(
+            "you clicked the cat " +  q + "  times   in 5 seconds woow  do you think you can do better?") ;
+         
+           },5000);
+
+
+
+</script>
+</body>
+</html>

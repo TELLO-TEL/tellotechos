@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tello</title>
+</head>
+
+
+<header id="pe">the tello dice</header>
+<style type="text/css">
+    body{
+    	background-image: url('1.gif') ;
+        background-repeat: repeat;
+        background-position: inherit;
+        background-attachment: local;
+    }
+	div{
+		position: center ;
+        width: 400px ;
+        height:400px;
+        border: solid black  2px;
+		font-size: 400px ;
+		text-align: center;
+		margin: 5px 150px  25px 150px ;
+	}
+ header{
+ 	font-size:500% ;
+ 	background-color:red ;
+ 	position: top-left;
+ 	background-repeat: no-repeat;
+ 	width: 450px;
+ 	margin-bottom: 0;
+ }
+	button{
+		margin: 0 150px  100px 150px ;
+		margin-visibility:hidden;
+		border-top-color: red ;
+		border-bottom-color:green;
+		border-radius: 20px ;
+	    width: 70px ;
+</style>
+
+<body>
+
+  <div id="panel" value="3"></div>
+      <button  onclick="roller();">roll the dice</button>
+
+     
+
+     <script type="text/javascript" src="jquery.js"></script>
+     <script type="text/javascript" src="tel.js"></script>
+     <script type="text/javascript">
+     	
+     	$(function ()  {
+     		$('#panel').hide(2000).show(4000);
+     		$('#pe').hide(2000).show(4000);
+     	})
+     </script>
+</body>
+</html>

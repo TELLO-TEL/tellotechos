@@ -1,0 +1,53 @@
+body {
+	font-family: 'lucide Grande' , 'times new roman' ;
+	background: url(../images/corkboard.jpg);
+}
+
+#newnoteButton{
+	font-size: 25px ;
+	padding: 10px ;
+	border-radius: 6px ;
+	background: #333 ;
+	color: #FFF ;
+	border: 0
+}
+#newnoteButton:hover {
+	background: #000 ;
+}
+.note {
+	background-color: rgb(266 , 240  ,70);
+	height: 200px ;
+	padding :10px ;
+	position: absolute;
+	width: 200px;
+	-webkit-box-shadow:0px 5px 10px rgba(0 , 0 ,0 ,5);
+}
+.note:hover .closebutton{
+	display: none;
+}
+.closebutton {
+	display: none;
+	background-image: url(.../images/remove.png);
+	height: 30px ;
+	width: 30px;
+	position: absolute;
+	left: -15px ;
+	top: -15px ;
+}
+.closebutton:active{
+	background-image:url(.../images/remove_pusged.png);
+
+}
+
+.timestamp{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 11px;
+	background-color:#db0;
+	color: #000 ;
+	border-top: 1px solid #a80;
+	border-top-color: #345432 ;
+	text-align: center;
+}

@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="audio-image">
+			<img class="cover">
+		</div>
+		<div id="audio-player">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+			<input id="volume" type="range" min="0" max="10" value="4">
+			<br>
+			<div id="buttons">
+				<span>
+					<button id="prev"></button>
+					<button id="play"></button>
+					<button id="pause"></button>
+					<button id="stop"></button>
+					<button id="next"></button>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+			<div id="tracker">
+				<div id="progress-bar">
+					<span id="progress"></span>
+				</div>
+				<span id="duration">0:00</span>
+			</div>
+			<div class="clearfix"></div>
+			<ul id="playlist" class="hidden">
+				<li song="1.M4A" cover="cover1.jpg" artist="Linkin Park">1.mp3</li>
+				<li song="2.mp3" cover="cover1.jpg" artist="Linkin Park">2.mp3</li>
+				<li song="3.mp3" cover="cover1.jpg" artist="Linkin Park">3.mp3</li>
+				<li song="4.M4A" cover="cover1.jpg" artist="Linkin Park">4.mp3</li>
+				<li song="5.M4A" cover="cover1.jpg" artist="Linkin Park">5.mp3</li>
+				<li song="6.M4A" cover="cover1.jpg" artist="Linkin Park">6.mp3</li>
+				<li song="7.mp3" cover="cover1.jpg" artist="Linkin Park">7.mp3</li>
+				<li song="8.mp3" cover="cover1.jpg" artist="Linkin Park">8.mp3</li>
+				<li song="9.mp3" cover="cover1.jpg" artist="Linkin Park">9.mp3</li>
+			</ul>
+		</div>
+	</div>
+	<div>copyright @tello20&gt;</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

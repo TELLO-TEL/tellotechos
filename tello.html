@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+
+<head >
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>THE TELLO INDUSTRIES</title>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Include Stylesheets -->
+		    
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize-min.css">
+        <link rel="stylesheet" type="text/css" href="css/tello.css">
+</head>
+<!-- Include JQuery -->
+		<script src="js/jquery.js"></script>
+<body>
+<header id="main-header"> <img id="tello" src="img/1.jpg"><strong>The Tello technologies </strong></header>
+ 
+ <nav class="main-nav"> 
+ 	   
+
+ 	     <a style="color:#ff0000;"  href="tello.html">Home</a>
+ 	     <a style="color:#00ff00;" href="sticky/sticky.html">projects</a>
+ 	   <a style="color:gold;" href="my media player/media.html">music</a>
+ 	    <a  style="color:purple;" href="blog/blog.html">blog</a>
+ 	     <a  style="color:#00ff22;" href="animation/animations.html">animation</a>
+ 	      <a  style="color:#ff00d3;" href="smell it/bakky.html">food</a>
+ 	      <a style="color:#0000ff;" href="dice/dice.html">dice</a>
+ 	      <a href="gamers/index.html">games</a>
+       
+     </nav>
+     </nav>
+			</div><!-- container -->
+		</header>
+		<div class="container">
+		<aside id="sidebar">
+			<div class="search">
+					<input type="search" style="margin-left:180px ;position:relative" placeholder="Tello hello search ..."><input type="image" src="img/2.png" alt="Search">
+				</form>
+			</div><!-- search -->
+			<div class="clearfix">
+			<nav id="sub-nav">
+				<ul>
+					<li><a href="#">Player</a></li>
+					<li><a href="#">Design</a></li>
+					<li><a href="#">SEO & Marketing</a></li>
+					<li><a href="#">Extras</a></li>
+					<li><a href="#">Gadgets</a></li>
+					<li><a href="#">Software</a></li>
+				</ul>
+			</div></aside>
+
+     </nav>  
+
+              <p id="ten">The future is right here with the Tello technologies, it will revolutionize the world making it better and smarter. Tello is one of the youngest billionaire who had a vision since he was a little child .He started the company in his late twenties, the most sophisticated inventions are right here with Tello. The main vision of the company is providing the world with the smarter and better technology ranging from the smallest item you can think of to the most awesome huge techno-mobile devices. Located downtown in Kwekwe there are thousand of workers who never quit and have passion and confidence in what they are doing, the Tello industries are growing bigger and better every year. Some of the devices we have our local shops and staff are world smallest amplifier size of compact disk, T-shirts canons, memory wiper, and a lot more<br>
+              Some of the projects still in progress are the worlds first space elevator so far its half-way up in the sky and its going well as expected all by Tello industries, we  also moving  into universities and motivating them try their best ,in universities we introduced a club called robot fight club where students build their robots small size one and go for combat with them and we introduces some rewards and staff, for the record we are one of the top leading and successful company  in the southern  region and everyone is doing great ,Since NASA agreed to cooperate with them we also have  twelve satellites orbiting and we also helping in the completion  of the space station , this is just a few of our successes there is more than that  for more information  click on our links above
+
+
+
+       </p>
+       <form id="register" action="register" method="post">
+
+		<fieldset>
+			<legend>Register</legend>
+		
+			<!-- email -->
+			<label for="email">email:</label>
+			<input type="email" id="email" name="email" autofocus required />
+
+			<!-- passwords -->
+			<label for="pass1">password:</label>
+			<input type="password" id="pass1" name="pass1" required />
+			
+			<label for="pass2">again:</label>
+			<input type="password" id="pass2" name="pass2" required />
+
+			<button type="submit" id="button" href="tella.txt" value="save">Register</button>
+		
+		</fieldset>
+		
+	</form>
+       <footer id="main-footer">
+                <div class="container">
+					<div class="footer-right">
+						<nav class="footer-nav">
+							<ul>
+								<li><a href="#" class="active">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Resources</a></li>
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</nav>
+						<nav class="footer-nav">
+							<ul>
+								<li><a href="#" class="active">Web Development</a></li>
+								<li><a href="#">Design</a></li>
+								<li><a href="#">Cloud & Hosting</a></li>
+								<li><a href="#">Gadgets</a></li>
+								<li><a href="#">Software</a></li>
+								<li><a href="#">SEO & Marketing</a></li>
+							</ul>
+						</nav>
+						<nav class="footer-nav">
+							<ul>
+								<li><a href="#" class="active">Web Development</a></li>
+								<li><a href="#">Design</a></li>
+								<li><a href="#">Cloud & Hosting</a></li>
+								<li><a href="#">Gadgets</a></li>
+								<li><a href="#">Software</a></li>
+								<li><a href="#">SEO & Marketing</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer-left">
+						<p class="copy">Copyright &copy; 2016 The Tello Techo</p>
+					</div>
+				</div>
+			</footer>
+			<script type="text/javascript" src="js/jquery.js"></script>
+                 <script>
+
+// Add User button click
+   $('#buttonr').on('click', addUser);
+function addUser(event) {
+    event.preventDefault();
+
+    // Super basic validation - increase errorCount variable if any fields are blank
+    var errorCount = 0;
+  
+    // Check and make sure errorCount's still at zero
+    if(errorCount === 0) {
+
+        // If it is, compile all user info into one object
+        var newUser = {
+            
+            'email': $('#email').val(),
+            'password': $('#pass2').val(),
+           
+        }
+
+        // Use AJAX to post the object to our adduser service
+        $.ajax({
+            type: 'POST',
+            data: newUser,
+            url: 'register/register.json',
+            dataType: 'JSON'
+        }).done(function( response ) {
+
+            // Check for successful (blank) response
+            if (response.msg === '') {
+
+                // Clear the form inputs
+                $('#addUser fieldset input').val('');
+
+                // Update the table
+                populateTable();
+
+            }
+            else {
+
+                // If something goes wrong, alert the error message that our service returned
+                alert('Error: ' + response.msg);
+
+            }
+        });
+    }
+    else {
+        // If errorCount is more than 0, error out
+        alert('Please fill in all fields');
+        return false;
+    }
+};
+
+
+                 
+                 var form ={
+                 	register: document.getElementById('register'),
+                 	email: document.getElementById('email'),
+                 	pass1: document.getElementById('pass1'),
+                 	pass2: document.getElementById('pass2')
+
+                 };
+                 //for submit
+                 form.register.addEventListener("submit", CheckForm);
+                 //form submit validation
+                 var reEmail  = /^[a-z0-9._%-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+                 function CheckForm(e){
+                 	var msg = "" ;
+                 	//check email
+                 	if(!reEmail.test(form.email.value)){
+                 		msg+="\n your email adress please";
+
+                 	}
+                 	//check passwords
+                 	if (form.pass1.value ==="" || form.pass1.value!== form.pass2.value) {
+                 		msg+="\n please check your passwords";
+
+                 	};
+                 	//completing message
+                 	if (msg!="") {
+                 		msg ="please check:"+msg;
+                 	}
+                 	else{
+                 		msg = "form is valid \n Submittng the form ..." ;
+                 	}
+                 	alert(msg);
+                 	e.preventDefault();
+                 }
+                 </script>
+          </body>
+s</html>

@@ -1,0 +1,177 @@
+header{
+	font-style: arial ;
+	font-weight : small;
+	font-size: 100px;
+	padding: 20px;
+	top: 0px ;
+	right: -200px ;
+color: yellow;
+}
+#tello:hover{
+	-webkit-transform:scale(2.3);
+	 transition-timing-function: ease-in-out;
+}
+header:hover{
+	color: #00ff00 ;
+	font-size: 115px ;
+	transition-property: color , font-size ,;
+	transition-duration: 5s ;
+	transition-timing-function : ease-in-out;
+
+}
+#branding{
+	float:left;
+	width:50%;}
+a{
+	color:#333;
+	text-decoration:none;
+}
+#sidebar{
+	float:right;
+	width:30%;
+}
+
+#ten{  
+	font-size: 20px;
+ 	width: 70%;
+ 	margin-top: 7px;
+	margin-right: 300px ;
+	padding: 5px;
+	position: relative;
+    left:10% ;
+
+}
+#branding img{
+	position:absolute;
+	width:60px;
+	height:auto;
+}
+
+}
+
+}
+#list{
+	width: 20% ;
+	position: relative;
+	
+}
+.main-nav {
+	padding-left: 5px;
+	float:center;
+	position: relative;
+	text-align: center;
+	font-size:32px;
+	font-weight:bold;
+	list-style:square;
+	letter-spacing: 2px;
+	color:#F3D2AA;
+	width: 100%;
+}
+
+
+.search input[type="image"]{
+	width:10%;
+	float:right;
+}
+#main-header{
+	height:100px;
+	background-image: url(../img/3.jpg);
+	overflow:hidden;
+	margin-bottom:20px;
+im
+}
+#sub-nav{
+	padding:20px 20px 20px 0;
+	margin:40px 0px 0 150px ;
+}
+
+#sub-nav li{
+    font-size: 50px;
+    font-weight: bold;
+    padding:5px 0 5px 0;
+    border-bottom: dotted 1px #333;
+}
+fieldset
+{
+	padding: 0.5em 1em;
+	border: 2px solid #999;
+	border-radius: 6px;
+}
+
+legend
+{
+	padding: 0 0.5em;
+	color: #999;
+}
+
+label
+{
+	clear: both;
+	float: left;
+	width: 40%;
+	text-align: right;
+	margin: 0 2% 10px 0;
+	color: #666;
+}
+
+input, button
+{
+	float: left;
+	width: 10em;
+	font-size: 1em;
+	padding: 2px 6px;
+}
+
+button
+{
+	clear: both;
+	margin-left: 42%;
+}
+
+#strength
+{
+	float: left;
+	font-weight: bold;
+	margin-left: 2%;
+	color: #999;
+}
+
+#main-footer{
+	background:#333;
+	color:#fff;
+	min-height:180px;
+	margin-top:20px;
+	overflow:auto;
+	width: 100%;
+}
+
+#main-footer a{
+	color:#fff;
+}
+
+#main-footer .copy{
+	padding:20px 0 0 0;
+}
+
+#main-footer .footer-left{
+	float:left;
+	width:30%;
+}
+
+#main-footer .footer-right{
+	position: bottom;
+	float:right;
+	width:70%;
+}
+
+#main-footer .footer-nav{
+	float:left;
+	font-size:20px;
+	width:31%;
+	padding:20px 0 20px 0;
+	margin-right:10px;
+}
+
+#main-footer .footer-nav li{
+	padding:5px 0 5px 0;
+	border-bottom:dotted #666 1px
